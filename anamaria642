@@ -1,1 +1,26 @@
+it status
+git branch --show-current
+pwd
+git switch main
+git pull --ff-only
+git switch -c aluno/anamaria642/aula-03-recuperacao
+git branch --show-current
+mkdir -p evidencias/aula-03/anamaria642
+mkdir -p docs/aula-03
+git status
 
+{
+ echo "=== anamaria642 ==="
+ whoami
+ id
+ echo "=== KERNEL ==="
+ uname -r
+ echo "=== DISTRIBUICAO ==="
+ cat /etc/os-release 2>/dev/null | head -n 8
+ echo "=== MEMORIA ==="
+ free -h
+ echo "=== DISCO DO PROJETO ==="
+ df -h .
+ echo "=== PROCESSOS ==="
+ ps -eo pid,ppid,stat,%cpu,%mem,comm --sort=-%cpu | head -n 12
+} | tee evidencias/aula-03/SEU_USUARIO/baseline-so.txt
