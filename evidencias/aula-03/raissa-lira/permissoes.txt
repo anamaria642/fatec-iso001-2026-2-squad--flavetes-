@@ -1,0 +1,4 @@
+]633;E;echo "=== PERMISSOES ===";ecac1fb0-5801-40a6-9ca7-d1901b12dba4]633;C=== PERMISSOES ===
+---------- 1 codespace codespace 29 Sep  5 13:08 laboratorio/raissa-lira/segredo.txt
+=== TENTATIVA DE LEITURA ===
+cat: laboratorio/raissa-lira/segredo.txt: Permission denied

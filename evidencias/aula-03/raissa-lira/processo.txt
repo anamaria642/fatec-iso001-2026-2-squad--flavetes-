@@ -1,0 +1,3 @@
+=== PID / PPID / ESTADO ===
+    PID    PPID STAT  NI COMMAND
+=== /proc/10166/status ===
